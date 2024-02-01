@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>index alle eats</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- icon-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4e92e275a5.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+
+        <!--header section starts-->
+        <header>
+            <a href="#" class="logo"><img src="images/newlogo.png"></a>
+
+            <nav class="navbar">
+                <a href="login.html">Log in</a>
+            </nav>
+
+        </header>
+                <!--header section ends-->
+             
+                <!-- MAIN -->>
+                <section class="home section" id="home">
+                    <div class="homesec1">
+                    <img src="images/newkhaana1.png" alt="home image" class="home_img">
+                    <div class="home_data">
+                        <h1>Rediscover the joys <br>
+                            of <span style="color:#055B49;font-family:initial">food</span> with us</h1>
+                        
+                        <p>Don't let your allergies come in the way of<br><br>
+                            you having your favourite food.</p>
+                            <form action="signup.html">
+                            <button class="fill">Get Started</button>
+                            </form>
+                    </div>
+                 
+
+                  <div class="homesec2">
+                    <img src="images/mealsnew.png" alt="home image" class="home_img2">
+                 <div class="home_data2">
+                        <h1>85 Million people</h1>
+                        <br>
+                        <p>are living with life-threatening <br><br>
+                         food allergies and intolerances.
+                        </p>
+                        
+                </div>
+                  </div>
+                
+                  
+</section>
+
+
+
+<!--features start-->>
+<section class="feature">
+    <h1><br> Why Alle eats?</h1>
+    <p style="font-size: 28px;">We provide:</p>
+ 
+    <div class="row">
+     <div class="feature-col">
+         <h3>User-Friendly Interface</h3>
+         <p>Provides a way to track your allergies by supplying you with all the possible substitutes and recipies.
+            We also ensure that you are well informed about the substitute through its nutrient scale.
+        
+        </p>
+     </div>
+ 
+    <div class="feature-col">
+     <h3>A mindful approach</h3>
+     <p>Allows you to customize your diet plan in a way that will 
+        comprise of a variety of substitutes for food that you were
+         allergic to and providing you with a healthier, allergen-free substitute.</p>
+     </div>
+ 
+     <div class="feature-col">
+         <h3>Data insights</h3>
+         <p>We strive to simplify your culinary adventure by providing you with information 
+            comprising as to why a certain allergy is caused and help you make your own personalized dietary regime. 
+        
+         </p>
+     </div>
+ </section>
+ <!--features end-->
+
+<!--slider section starts-->
+    <div class="home" id="home">
+        
+        <div class="swiper home-slider">
+            <h1>Reviews</h1>
+            <div class="swiper-wrapper wrapper">
+                
+
+    
+                <div class="swiper-slide slide slide1"> 
+                    <div class="content">
+                        <img src="images/userimage1.jpg" class="viewer">
+                        <p>My health has greatly improved with the help of alle eats.
+                        <br> I'm able to fulfill all my dietary allowances.</p>
+                        <br>
+                    <i class="bx bxs-quote-alt-left quote-icon"></i>
+                    <div class="details">
+                        <span class="name">Kushina miller</span><br>
+                    </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide slide2">
+                    <div class="content">
+                        <img src="images/userimage2.jpg" class="viewer">
+                        <p>Alle eats is a life-saver. I never thought I'd be <br>
+                            able to experience the taste of food that is THIS close.
+                        </p>
+                        <br>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                    <div class="details">
+                        <span class="name">Yamamoto Lewis</span>
+                        <br>
+                    </div>
+                        </div>
+                    </div>
+                
+
+                <div class="swiper-slide slide slide3">
+                    <div class="content">
+                        <img src="images/userimage3.jpg" class="viewer">
+                        <p>Absolutely loved the wide range of recipes covering so many cuisines.<br>
+                            This site was well designed.
+                        </p>
+                        <br>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                    <div class="details">
+                        <span class="name">Asuma Anderson</span><br>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide4">
+                    <div class="content">
+                        <img src="images/userimage4.jpg" class="viewer">
+                        <p>I'm suprised by how precised the proportions in the recipes are.<br>
+                            Loved the french cuisine. </p>
+                       
+                        <br>
+                        <i class="bx bxs-quote-alt-left quote-icon"></i>
+                    <div class="details">
+                        <span class="name">Kaori Williams</span>
+                        <br>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </div> 
+        <!--slider section ends-->>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <script>
+            var swiper = new Swiper(".home-slider", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 5500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+             loop:true,
+            });
+          </script>
+
+          <!--slider section actually ends!-->
+
+          <!--Footer section starts-->
+          <section class="footer">
+            
+
+        <div class="footercontent">
+            <div>
+                    <h3>About us</h3>
+                    <p>Alle Eats educates on allergy symptoms, offers substitutes, and shares diverse allergy-friendly recipes, empowering informed culinary choices without limitations.</p>
+            </div>
+
+                    <div>
+                        <h3>Blogs</h3>
+                        <input type="email" name="" placeholder="enter your email">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>     
+                  
+            
+
+        <div>
+            <h3>Contact us</h3>
+                <span>Deepika</span>
+                <span>+(91)xxxxxxxxxx</span>
+                <span>kamabokogonpachiro@gmail.com</span>
+                <span>www.alleeats.in</span>
+        </div>
+        </div>
+
+        <p>&copy;2022 Reserved by Creative network </p>
+    </section>
+
+
+    </body>
+
+</html>
+ 

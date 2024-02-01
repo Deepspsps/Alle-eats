@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Alleinsider</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+ <!-- Stylesheet -->
+    <link rel="stylesheet" href="alleinsider.css" />
+    </head>
+     
+    <!-- Link Swiper's CSS -->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- icon-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4e92e275a5.js" crossorigin="anonymous"></script>
+</head>
+
+
+        <!--header section starts-->
+        <header>
+            <a href="#" class="logo"><img src="images/newlogo.png"></a>
+
+            <nav class="navbar">
+              <ul>
+                  <li><a href="home.html">home</a></li>
+                  <li><a href="about.html">about</a></li>
+                      <li>
+                          <a href="#">Tools</a>
+                          <ul class="dropdown">
+                              <li><a href="alletracker.html">Alletracker<br></a></li>
+                              <li><a href="alleinsider.html">Alleinsider<br></a></li>
+                              <li><a href="cookbook.html">CookBook<br></a></li>
+                          </ul>
+                      </li> 
+              <li><a href="mainblog.html">blogs</a></li>
+              <li><a href="feedback.html">feedback</a></li>
+              </ul>
+          </nav>
+
+        </header>
+        <!--header section ends-->
+
+                <div id="buttons">
+                    <button class="btn" onclick="filterObjects('all')">Show all</button>
+                    <button class="btn" onclick="filterObjects('dairy')">Dairy</button>
+                    <button class="btn" onclick="filterObjects('nuts')">Nuts</button>
+                    <button class="btn" onclick="filterObjects('veggies')">Vegetables</button>
+                    <button class="btn" onclick="filterObjects('fruits')">Fruits</button>
+                    <button class="btn" onclick="filterObjects('grains')">Grains</button>
+                    <button class="btn" onclick="filterObjects('meat_pol')">Meat/poultry</button>
+                </div>
+
+
+                <div class="objects">
+                    <a href="milk.html"><div class="box dairy">
+                        <img src="images/milk.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                        <h2>Milk</h2>
+                    </div>
+                </a>
+                    
+                <a href="butter.html">
+                    <div class="box dairy">
+                      <img src="images/butter.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Butter</h2> 
+                    </div>
+                  </a>
+              
+                  <a href="yogurt.html">
+                    <div class="box dairy">
+                      <img src="images/yogurt.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Yogurt</h2>
+                      </div>
+                  </a>
+              
+                  <a href="paneer.html">
+                    <div class="box dairy">
+                    <img src="images/paneer.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Paneer</h2>
+                    </div>
+                    </a>  
+              
+                  <a href="ghee.html">
+                    <div class="box dairy">
+                    <img src="images/ghee.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Ghee</h2>
+                    </div>
+                    </a>
+                  
+              
+                  <a href="fullcream.html">
+                    <div class="box dairy">
+                    <img src="images/fullcream.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Full Cream</h2>
+                    </div>
+                    </a>
+                    
+                  <a href="oats.html">
+                    <div class="box grains">
+                    <img src="images/oats.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Oats</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="rice.html">
+                    <div class="box grains">
+                    <img src="images/rice.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Rice</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="wheat.html">
+                    <div class="box grains">
+                    <img src="images/wheat.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Wheat</h2>
+                    </div>
+                    </a>
+                    
+              
+                  <a href="quinoa.html">
+                    <div class="box grains">
+                    <img src="images/quinoa.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Quinoa</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="millets.html">
+                    <div class="box grains">
+                    <img src="images/millets.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Millets</h2>
+                    </div>
+                   </a>
+              
+                  <a href="corn.html">
+                    <div class="box grains">
+                    <img src="images/corn.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Corn</h2> 
+                    </div>
+                    </a>
+              
+              
+                  <a href="cucumber.html">
+                    <div class="box veggies">
+                    <img src="images/cucumber.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Cucumber</h2>\
+                    </div>
+                    </a>
+              
+              
+                  <a href="bellpeppers.html">
+                    <div class="box veggies">
+                    <img src="images/bellpeppers.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Bell peppers</h2>
+                    </div>
+                    </a>
+              
+                  <a href="aubergine.html">
+                    <div class="box veggies">
+                    <img src="images/aubergine.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Aubergine</h2>
+                    </div>
+                    </a>
+              
+                  <a href="cabbage.html">
+                    <div class="box veggies">
+                    <img src="images/cabbage.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Cabbage</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="mushrooms.html">
+                    <div class="box veggies">
+                    <img src="images/mushrooms.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Mushrooms</h2>
+                    </div>
+                    </a>
+              
+                  <a href="celery.html">
+                    <div class="box veggies">
+                    <img src="images/celery.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Celery</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="peanuts.html">
+                    <div class="box nuts">
+                    <img src="images/peanuts.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Peanuts</h2>\
+                    </div>
+                    </a>
+              
+              
+                  <a href="pistachio.html">
+                    <div class="box nuts">
+                    <img src="images/pistachio.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Pistachio</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="hazelnuts.html">
+                    <div class="box nuts">
+                    <img src="images/hazelnuts.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Hazelnuts</h2>
+                    </div>
+                    </a>
+              
+                  <a href="cashews.html">
+                    <div class="box nuts">
+                    <img src="images/cashews.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Cashews</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="almonds.html">
+                    <div class="box nuts">
+                    <img src="images/almonds.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Almonds</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="walnuts.html">
+                    <div class="box nuts">
+                    <img src="images/walnuts.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Walnuts</h2>
+                    </div>
+                    </a>
+              
+                    
+                  <a href="apples.html">
+                    <div class="box fruits">
+                    <img src="images/apples.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Apples</h2>
+                    </div>
+                    </a>
+              
+                    
+                  <a href="peaches.html">
+                    <div class="box fruits">
+                    <img src="images/peaches.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Peaches</h2>
+                    </div>
+                    </a>
+                    
+                    
+                  <a href="kiwi.html">
+                    <div class="box fruits">
+                    <img src="images/kiwi.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Kiwi</h2>
+                    </div>
+                    </a>
+              
+                    
+                  <a href="cherries.html">
+                    <div class="box fruits">
+                    <img src="images/cherries.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Cherries</h2>
+                    </div>
+                    </a>
+              
+                    
+                  <a href="pears.html">
+                    <div class="box fruits">
+                    <img src="images/pears.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Pears</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="watermelon.html">
+                    <div class="box fruits">
+                    <img src="images/watermelon.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Watermelon</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="eggs.html">
+                    <div class="box meat_pol">
+                    <img src="images/eggs.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Eggs</h2>
+                    </div>
+                    </a>
+              
+              
+                  <a href="chicken.html">
+                    <div class="box meat_pol">
+                    <img src="images/chicken.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Chicken</h2>
+                    </div>
+                    </a>
+              
+                    
+                  <a href="goatmeat.html">
+                    <div class="box meat_pol">
+                    <img src="images/goatmeat.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Goat Meat</h2>
+                    </div>
+                    </a>
+              
+                    
+                  <a href="fish.html">
+                    <div class="box meat_pol">
+                    <img src="images/fish.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Fish</h2>
+                    </div>
+                    </a>
+              
+                  
+                  <a href="prawns.html">  
+                    <div class="box meat_pol">
+                    <img src="images/prawns.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Prawns</h2>
+                    </div>
+                    </a>
+              
+                  <a href="crabs.html">
+                    <div class="box meat_pol">
+                    <img src="images/crabs.jpg" style="width: 350px;height: 250px; border-radius: 5px;">
+                    <h2>Crabs</h2>
+                    </div> 
+                    </a>
+
+                </div>
+
+                <script src="alleinsider.js"></script>
+
+      <!--Footer section starts-->
+          <section class="footer">
+            
+
+            <div class="footercontent">
+                <div>
+                        <h3>About us</h3>
+                        <p>Alle Eats educates on allergy symptoms, offers substitutes, and shares diverse allergy-friendly recipes, empowering informed culinary choices without limitations.</p>
+                </div>
+    
+                        <div>
+                            <h3>Blogs</h3>
+                            <input type="email" name="" placeholder="enter your email">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>     
+                      
+                
+    
+            <div>
+                <h3>Contact us</h3>
+                <span>Deepika</span>
+                <span>+(91) xxxxxxxxxx</span>
+                <span>kamabokogonpachiro@gmail.com</span>
+                <span>www.alleeats.in</span>
+            </div>
+            </div>
+    
+            <p>&copy;2022 Reserved by Creative network </p>
+        </section>
+    
+    
+        </body>
+    
+    </html>

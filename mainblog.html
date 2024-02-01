@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>blogs alle eats</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+
+    <link rel="stylesheet" type="text/css" href="mainblog.css">
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4e92e275a5.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+      <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+        </style>
+        <!--header section starts-->
+        <header>
+            <a href="#" class="logo"><img src="images/newlogo.png"></a>
+
+            <nav class="navbar">
+              <ul>
+                  <li><a href="home.html">home</a></li>
+                  <li><a href="about.html">about</a></li>
+                      <li>
+                          <a href="#">Tools</a>
+                          <ul class="dropdown">
+                              <li><a href="alletracker.html">Alletracker<br></a></li>
+                              <li><a href="alleinsider.html">Alleinsider<br></a></li>
+                              <li><a href="cookbook.html">CookBook<br></a></li>
+                          </ul>
+                      </li> 
+              <li><a href="mainblog.html">blogs</a></li>
+              <li><a href="feedback.html">feedback</a></li>
+              </ul>
+          </nav>
+
+        </header>
+                <!--header section ends-->
+
+                
+                <div class="w3-content w3-display-container" style="max-width:100%">
+                  <a href="blog1.html"><img class="mySlides" src="images/blog-image1.png" style="width:100%"></a>
+                  <a href="blog2.html"><img class="mySlides" src="images/blog-image2.png" style="width:100%"></a>
+                    <a href="blog3.html"><img class="mySlides" src="images/blog-image3.png" style="width:100%"></a>
+                  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                  </div>
+                </div>
+                
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function currentDiv(n) {
+                  showDivs(slideIndex = n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("demo");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-white", "");
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " w3-white";
+                }
+                </script>
+
+                <!--features start-->
+
+<section class="blogs-rows">
+  <div class="container1">
+    <h1>Whats Trending?</h1>
+    </div>
+
+  <div class="row">
+    <a href="blog4.html">
+   <div class="blogs-row1-i">
+  </a>
+       <h3>Meet Rachel-</h3>
+       <p>Rachel, a 33-year-old Mexican woman, faces daily challenges from allergies but 
+        remains determined to live a healthy, fulfilling life.<br><a href="blog4.html"> Read more</a>
+       </p>
+   </div>
+
+  <div class="blogs-row1-ii">
+   <h3> Unmasking Allergies:</h3>
+   <p>Uncontrollable sneezing near cats or persistent itching after eating 
+    specific foods may indicate allergies, not mere coincidences.<br><a href="blog5.html">Read more</a>
+
+   </p>
+   </div>
+
+   <div class="blogs-row1-iii">
+       <h3>Acute Anaphylaxis:</h3>
+       <p>Picture the alarming symptoms of anaphylaxis: sudden blood pressure drop, breathing difficulty,
+         and intense uneasiness—an acute, life-threatening allergic reaction.<br><a href="blog6.html"> Read more</a>
+        </p>
+   </div>
+</section>
+                
+<section class="blogs-rows2">
+
+  <div class="row">
+   <div class="blogs-row2-i">
+       <h3>Navigating Allergies</h3>
+       <p>Food is vital for sustenance and enjoyment, but the rising issue of 
+        food allergies affects millions globally across all ages.<br><a href="blog7.html"> Read more</a>
+      
+      </p>
+   </div>
+
+  <div class="blogs-row2-ii">
+   <h3>Allergy-Friendly Cooking</h3>
+   <p>Sharing a meal brings joy across cultures and creates lasting memories. However, 
+    for those with allergies, dining can be stressful.<br><a href="blog8.html"> Read more</a> 
+    </p>
+   </div>
+
+   <div class="blogs-row2-iii">
+       <h3>What's Immunotherapy?</h3>
+       <p>A groundbreaking cancer treatment departs from traditional methods, not 
+        directly targeting cancer cells like chemotherapy and radiation.<br><a href="blog9.html"> Read more</a>
+       </p>
+   </div>
+</section>
+
+<div class="container">
+  <hr class="hr-text" data-content="This week's most popular">
+</div>
+                
+<div class="blogs-sec4"><a href="blog5.html">
+  <img class="blogs-img4" src="images/blog10-img.png">
+  </a>
+</div>
+          
+                
+                <!--Footer section starts-->
+                <section class="footer">
+            
+
+                  <div class="footercontent">
+                      <div>
+                              <h3>About us</h3>
+                              <p>Alle Eats educates on allergy symptoms, offers substitutes, and shares diverse allergy-friendly recipes, empowering informed culinary choices without limitations.</p>
+                      </div>
+          
+                              <div>
+                                  <h3>Blogs</h3>
+                                  <input type="email" name="" placeholder="enter your email">
+                                  <ul class="ab">
+                                      <li class="bca"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                      <li class="bca"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                      <li class="bca"><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                      <li class="bca"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                  </ul>
+                              </div>     
+                            
+                      
+          
+                  <div>
+                      <h3>Contact us</h3>
+                      <span>Deepika</span>
+                      <span>+(91) xxxxxxxxxx</span>
+                      <span>kamabokogonpachiro@gmail.com</span>
+                      <span>www.alleeats.in</span>
+                  </div>
+                  </div>
+          
+                  <p>&copy;2022 Reserved by Creative network </p>
+              </section>
+          
+          
+              </body>
+          
+          </html>
